@@ -75,9 +75,6 @@ docs/_build/
 .pybuilder/
 target/
 
-#virtual environment
-venv/
-
 # Jupyter Notebook
 .ipynb_checkpoints
 

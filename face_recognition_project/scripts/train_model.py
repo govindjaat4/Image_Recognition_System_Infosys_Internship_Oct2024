@@ -34,6 +34,7 @@ train_generator = datagen.flow_from_directory(
 # Get person names
 person_names = list(train_generator.class_indices.keys())
 
+
 # Model architecture
 model = Sequential([
     Conv2D(64, (3, 3), activation='relu', input_shape=(200, 200, 3)),
